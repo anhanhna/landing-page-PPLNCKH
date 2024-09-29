@@ -10,107 +10,47 @@
     <title>Phân loại cảm xúc</title>
 </head>
 <body>
-      <!-- NAVIGATION BAR -->
+    <!-- NAVIGATION BAR -->
     <div class="NavBar" id="idNavBar">
-
-        <!-- LOGO -->
         <div class="logo-container">
-            <img src="/assets/images/logoSgu.png" alt="logo" id="logo" >
+            <img src="/assets/images/logoSgu.png" alt="logo" id="logo">
         </div>
-
-        <!-- Hamburger Menu -->
         <div class="item-container">
-            <span class="openBtn">
-                <div href="#" class="line" onclick="openNav()"></div>
-                <div href="#" class="line" onclick="openNav()"></div>
-                <div href="#" class="line" onclick="openNav()"></div>
+            <span class="openBtn" onclick="openNav()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </span>
-    
-            <!-- LIST ITEM -->
             <ul class="sideNav" id="idSideNav"> 
-                <!-- Close Button -->
-                <li class="closeBtn">
-                    <div href="#" class="line" onclick="closeNav()"></div>
-                    <div href="#" class="line" onclick="closeNav()"></div>
-                    <div href="#" class="line" onclick="closeNav()"></div>
+                <li class="closeBtn" onclick="closeNav()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
                 </li>
-                <!-- News -->
-                <li><a href="#" onclick="test1()"><svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path clip-rule="evenodd" d="M5.5 11.493l2 2.998 2-2.998h4a1 1 0 001-1V1.5a.999.999 0 00-1-.999h-12a1 1 0 00-1 1v8.993a1 1 0 001 1h4z" stroke="currentColor" stroke-linecap="square" stroke-linejoin="round"></path></svg>News</a></li>
-                <!-- About -->
-                <li><a href="#" onclick="test2()" ><svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="M3 13v.5h1V13H3zm8 0v.5h1V13h-1zm-7 0v-.5H3v.5h1zm2.5-3h2V9h-2v1zm4.5 2.5v.5h1v-.5h-1zM8.5 10a2.5 2.5 0 012.5 2.5h1A3.5 3.5 0 008.5 9v1zM4 12.5A2.5 2.5 0 016.5 10V9A3.5 3.5 0 003 12.5h1zM7.5 3A2.5 2.5 0 005 5.5h1A1.5 1.5 0 017.5 4V3zM10 5.5A2.5 2.5 0 007.5 3v1A1.5 1.5 0 019 5.5h1zM7.5 8A2.5 2.5 0 0010 5.5H9A1.5 1.5 0 017.5 7v1zm0-1A1.5 1.5 0 016 5.5H5A2.5 2.5 0 007.5 8V7zm0 7A6.5 6.5 0 011 7.5H0A7.5 7.5 0 007.5 15v-1zM14 7.5A6.5 6.5 0 017.5 14v1A7.5 7.5 0 0015 7.5h-1zM7.5 1A6.5 6.5 0 0114 7.5h1A7.5 7.5 0 007.5 0v1zm0-1A7.5 7.5 0 000 7.5h1A6.5 6.5 0 017.5 1V0z" fill="currentColor"></path></svg>About</a></li>
+                <li><a href="#" onclick="test1()">News</a></li>
+                <li><a href="#" onclick="test2()">About</a></li>
             </ul>
         </div>
-
-
-
     </div>
+
+    <!-- Khối hình chuyển động -->
+    <div class="shape shape1"></div>
+    <div class="shape shape2"></div>
+    <div class="shape shape3"></div>
+    <div class="shape shape4"></div>
+
     <!-- Main Content -->
     <main style="margin: 0 10%;">
-        <h1>
-            Cảm xúc là gì?
-        </h1>
-<div style="display: flex; flex-direction: row;">
-<img src="./assets/images/pexels-danxavier-1239291.jpg" alt="">
-<img src="./assets/images/pexels-pixabay-262075.jpg" alt="">
-</div>
-“Cảm xúc là một trạng thái tâm lý phức tạp bao gồm 3 thành tố riêng biệt: Một trải nghiệm chủ quan, một phản ứng sinh lý và một phản hồi hành vi rõ ràng.”
-
-<br>
-
-
-Ngoài việc định nghĩa chính xác cảm xúc, các nhà nghiên cứu cũng đã nỗ lực xác định và phân loại các loại cảm xúc khác nhau. Trong năm 1972, nhà tâm lý học Paul Eckman cho rằng có tất cả 6 trạng thái cảm xúc cơ bản tương tự nhau ở tất cả các nền văn hóa: Sợ hãi, ghê tởm, giận dữ, ngạc nhiên, hạnh phúc và buồn bã. Năm 1990, danh sách này được mở rộng thêm với các cảm xúc: ngượng ngùng, phấn khích, hài lòng, nhục nhã, tự hào, thỏa mãn và thích thú.
-
-
-Trong suốt những năm 1980, Robert Plutchick đã giới thiệu một hệ thống phân loại cảm xúc khác có tên “Bánh xe cảm xúc”. Mô hình này thể hiện quá trình kết hợp và pha trộn các cảm xúc khác nhau, cũng giống như họa sĩ pha các màu cơ bản để tạo ra các màu khác. Theo Plutchick, có 8 chiều hướng cảm xúc chính: Vui – Buồn, Giận dữ – Sợ hãi, Tin tưởng – Ghê tởm, Ngạc nhiên – Mong đợi.
-
-
-Các cảm xúc này có thể kết hợp với nhau theo nhiều cách. Ví dụ, niềm vui và sự mong đợi có thể kết hợp với nhau để tạo nên sự phấn khích.
-
-
-Để hiểu rõ hơn về cảm xúc, ta hãy cũng tập trung vào 3 yếu tố cốt lõi.
-
-
-<h1>
-Trải nghiệm chủ quan. 
-
-</h1>
-Dù có nhiều loại cảm xúc mang tính phổ thông, có ở khắp nơi trên thế giới không kể các khác biệt về văn hóa, các nhà nghiên cứu vẫn cho rằng việc trải qua một cảm xúc nào đó vẫn mang tính chủ quan cao.
-
-
-Ta có thể xác định và gắn mác rõ ràng cho các cảm xúc như “giận”, “buồn” hoặc “vui vẻ”, tuy nhiên, trải nghiệm riêng của từng người đối với mỗi cảm xúc này lại mang tính đa chiều. Lấy ví dụ với cơn giận dữ, có phải lúc nào người ta cũng giận như nhau? Trải nghiệm của mỗi người sẽ dao động từ trạng thái chỉ hơi phật ý đến nổi cơ tam bành.
-
-
-Thêm vào đó, chúng ta không phải lúc nào cũng chỉ có đơn thuần 1 cảm xúc. Ta vẫn thấy hiện tượng nhiều cảm xúc đan xem tùy vào mỗi sự kiện hoặc tình huống. Kết hôn hoặc có con là những trải nghiệm có thể làm con người ta trả nghiệm một loạt các cảm xúc từ vui mừng đến lo lắng. Các cảm xúc này có thể xuất hiện cùng lúc hoặc theo thứ tự lần lượt.
-
-
-<h1>
- Phản ứng sinh lý.
-
-</h1>
-Nếu bạn đã từng cảm thấy dạ dày chộn rộn khi lo lắng hoặc đánh trống ngực vì sợ, bạn sẽ thấy cảm xúc có thể gây ra các phản ứng mạnh mẽ thế nào. Nhiều phản ứng của cơ thể khi bạn có một cảm xúc nào đó, ví dụ như mồ hôi bàn tay, tim đập thình thịch, hoặc thở dốc được điểu khiển bởi hệ thần kinh giao cảm, một phân nhánh của hệ thần kinh tự chủ.
-
-
-Hệ thần kinh tự chủ là cơ quan điều khiển các phản ứng không tự chủ như lưu lượng máu và sự tiêu hóa. Hệ thần kinh giao cảm đảm trách điều khiển các phản ứng chống trả-hay-bỏ chạy của cơ thể. Khi đối diện với một mối nguy cơ, các phản ứng này sẽ tự động giúp cơ thể chuẩn bị bỏ chạy khỏi mối nguy hiểm đó hoặc đối đầu với nó.
-
-
-Các nghiên cứu trước đây về mặt sinh lý học của cảm xúc chỉ hướng đến các phản ứng tự chủ này, nhưng các nghiên cứu gần đây đã tập trung vào cả vai trò của não bộ lên những cảm xúc ấy. Kết quả chụp quét não đã chỉ ra rằng hạch hạnh nhân, một bộ phận của hệ viền, đóng vai trò quan trọng trong việc hình thành các cảm xúc nói chung và sự sợ hãi nói riêng. Hạch hạnh nhân là một cấu trúc nhỏ hình hạnh nhân có liên quan đến các trạng thái mang tính động lực (như đói, khát) cũng như trí nhớ và cảm xúc. Các nhà nghiên cứu đã sử dụng phương pháp chụp não và xác nhận rằng khi cho một người xem một hình ảnh đáng sợ, hạch hạnh nhân này sẽ được kích hoạt. Hạch hạnh nhân tổn thương sẽ làm suy yếu các phản ứng sợ hãi ở chủ thể.
-
-<h1>
-Phản ứng hành vi. 
-
-</h1>
-
-Thành tố cuối cùng cõ lẽ là thứ quen thuộc với bạn nhất – hình thức thể hiện thực sự của cảm xúc. Chúng ta dành ra một khoảng thời gian đáng kể để lý giải biểu hiện cảm xúc của những người xung quanh. Khả năng nắm bắt chính xác biểu hiện cảm xúc được các nhà tâm lý học gọi là “Trí thông minh cảm xúc” và các biểu hiện này đóng vai trò quan trọng trong tổng thể ngôn ngữ cơ thể của con người. Các nhà nghiên cứu tin rằng chúng ta có nhiều biểu hiện chung giống nhau, ví dụ nụ cười thể hiện niềm vui/sự hài lòng, hay một cái nhăn mặt thể hiện sự buồn bực hoặc khó chịu. Các qui luật văn hóa cũng đóng vai trò lớn trong cách ta thể hiện và nắm bắt cảm xúc của con người. Ví dụ như ở Nhật Bản, người ta thường trưng ra khuôn mặt sợ hãi hoặc chán ghét khi có một quan chức chính quyền xuất hiện.
-
-<h1>
-    Cảm xúc và Khí sắc.
-
-</h1>
-
-Trong ngôn ngữ hằng ngày, người ta thường sử dụng từ “cảm xúc” và “khí sắc” (tâm trạng) hoán đổi lẫn nhau, nhưng trong thực tế các nhà tâm lý học đã phân loại sự khác biệt của 2 từ này. Vậy chúng khác nhau ở điểm nào? Cảm xúc thường tổn tại trong thời gian ngắn, nhưng mãnh liệt. Lý do tạo ra cảm xúc manh tính rõ ràng và dễ xác định. Ví dụ sau khi bất đồng ý kiến về chính trị với một người, bạn có thể cảm thấy giận dữ trong một khoảng thời gian ngắn. Trong khi đó, tâm trạng thì thường nhẹ hơn, nhưng lại kéo dài. Trong nhiều trường hợp, tâm trạng không có lý do cụ thể. Ví dụ, bạn có thể cảm thấy u ám trong nhiều ngày liền không vì bất cứ lí do gì.
-    
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2V_IuK_hGCQ?si=zY9-3en7Uu4P4XO7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</main>
+        <h1>Cảm xúc là gì?</h1>
+        <div style="display: flex; flex-direction: row;">
+            <img src="./assets/images/pexels-danxavier-1239291.jpg" alt="">
+            <img src="./assets/images/pexels-pixabay-262075.jpg" alt="">
+        </div>
+        <p>“Cảm xúc là một trạng thái tâm lý phức tạp bao gồm 3 thành tố riêng biệt: Một trải nghiệm chủ quan, một phản ứng sinh lý và một phản hồi hành vi rõ ràng.”</p>
+        <br>
+        <!-- Thêm nội dung ở đây -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2V_IuK_hGCQ?si=zY9-3en7Uu4P4XO7" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </main>
 
     <!-- Footer Section -->
     <footer>
@@ -124,6 +64,7 @@ Trong ngôn ngữ hằng ngày, người ta thường sử dụng từ “cảm 
             </nav>
         </div>
     </footer>
+
     <script defer src="/assets/js/ScrollbarJS.js"></script>
     <script defer src="/assets/js/headerJS.js"></script>
 </body>
