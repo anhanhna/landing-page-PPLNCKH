@@ -43,8 +43,6 @@ NAVIGATION BAR
     justify-content: flex-start;
     align-items: center;
     height: 3em;
-    position: fixed;
-    top: 0;
     width: 100vw;
     gap: 16px;
     padding: 1.5em 5vw;
