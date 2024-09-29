@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/assets/css/headerCSS.css">
+    <link rel="stylesheet" href="/assets/css/headerCSS_Responsive.css">
+    <link rel="stylesheet" href="/assets/css/ScrollbarCSS.css" />
+
+    <title>Landing page</title>
+</head>
+<body>
+      <!-- NAVIGATION BAR -->
+    <div class="NavBar" id="idNavBar">
+
+        <!-- LOGO -->
+        <div class="logo-container">
+            <img src="/assets/images/logoSgu.png" alt="logo" id="logo" >
+        </div>
+
+        <!-- Hamburger Menu -->
+        <div class="item-container">
+            <span class="openBtn">
+                <div href="#" class="line" onclick="openNav()"></div>
+                <div href="#" class="line" onclick="openNav()"></div>
+                <div href="#" class="line" onclick="openNav()"></div>
+            </span>
+    
+            <!-- LIST ITEM -->
+            <ul class="sideNav" id="idSideNav"> 
+                <!-- Close Button -->
+                <li class="closeBtn">
+                    <div href="#" class="line" onclick="closeNav()"></div>
+                    <div href="#" class="line" onclick="closeNav()"></div>
+                    <div href="#" class="line" onclick="closeNav()"></div>
+                </li>
+                <!-- News -->
+                <li><a href="#" onclick="test1()"><svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path clip-rule="evenodd" d="M5.5 11.493l2 2.998 2-2.998h4a1 1 0 001-1V1.5a.999.999 0 00-1-.999h-12a1 1 0 00-1 1v8.993a1 1 0 001 1h4z" stroke="currentColor" stroke-linecap="square" stroke-linejoin="round"></path></svg>News</a></li>
+                <!-- About -->
+                <li><a href="#" onclick="test2()" ><svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="M3 13v.5h1V13H3zm8 0v.5h1V13h-1zm-7 0v-.5H3v.5h1zm2.5-3h2V9h-2v1zm4.5 2.5v.5h1v-.5h-1zM8.5 10a2.5 2.5 0 012.5 2.5h1A3.5 3.5 0 008.5 9v1zM4 12.5A2.5 2.5 0 016.5 10V9A3.5 3.5 0 003 12.5h1zM7.5 3A2.5 2.5 0 005 5.5h1A1.5 1.5 0 017.5 4V3zM10 5.5A2.5 2.5 0 007.5 3v1A1.5 1.5 0 019 5.5h1zM7.5 8A2.5 2.5 0 0010 5.5H9A1.5 1.5 0 017.5 7v1zm0-1A1.5 1.5 0 016 5.5H5A2.5 2.5 0 007.5 8V7zm0 7A6.5 6.5 0 011 7.5H0A7.5 7.5 0 007.5 15v-1zM14 7.5A6.5 6.5 0 017.5 14v1A7.5 7.5 0 0015 7.5h-1zM7.5 1A6.5 6.5 0 0114 7.5h1A7.5 7.5 0 007.5 0v1zm0-1A7.5 7.5 0 000 7.5h1A6.5 6.5 0 017.5 1V0z" fill="currentColor"></path></svg>About</a></li>
+            </ul>
+        </div>
+
+
+
+    </div>
+    <!-- Main Content -->
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <h2>Welcome to Our Landing Page</h2>
+                <p>Your perfect solution to <strong>grow your business</strong>.</p>
+                <a href="#services" class="cta-button">Learn More</a>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service-cards">
+                    <div class="card">
+                        <h3>Web Design</h3>
+                        <p>We build responsive and engaging websites.</p>
+                    </div>
+                    <div class="card">
+                        <h3>SEO Optimization</h3>
+                        <p>Improve your online presence with effective SEO.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Marketing Strategy</h3>
+                        <p>We help you find the best way to reach your customers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>We are a team of passionate professionals committed to delivering high-quality solutions to help businesses grow and succeed online.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+            <nav>
+                <ul>
+                    <li><a href="#privacy-policy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script defer src="/assets/js/ScrollbarJS.js"></script>
+    <script defer src="/assets/js/headerJS.js"></script>
+</body>
+</html>
