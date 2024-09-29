@@ -193,3 +193,21 @@ footer nav ul li a:hover {
         margin-bottom: 20px;
     }
 }
+main{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+align-self: center;
+margin: 2rem 0;
+}
+iframe{
+    align-self: center;
+}
+
+main img {
+    border-radius: 2rem;
+    width: 30rem;margin: 0 2rem;
+    aspect-ratio: 2/1.5;
+    object-fit: cover;
+}
